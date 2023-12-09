@@ -2,48 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
  
 }
 
 
 
-header{
-    font-size: 20px;
-    padding-left: 40px;
+.header h1{
+    font-size: 40px;
+    padding-left: 10px;
     color: #e04642;
     font-family: bungee;
+    
   
 }
 
 
-
-.commtext{
-    font-size: 40px;
-    margin: 15px;
-}
-
-.commtext2{
-    font-size: 20px;
-    margin: 15px;
-    margin-top: 10px;
-}
-
-
-
 .home{
-    gap: 1.5rem;
+    gap: 2rem;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
-.kidslogo{
-    height: 175px;
-    width: 175px;
-    border-radius: 10px;
-}
-
 
 
 .community{
@@ -51,35 +33,129 @@ header{
     align-items: center;
 }
 
-.join{
-    color: black;
-    font-size: 18px;
-    background-color:#e04642 ;
+
+.kidslogo{
+    margin-left: 10px;
+    height: 195px;
+    width: 195px;
     border-radius: 10px;
-    margin: 15px;
-    margin-top: 10px;
-    height: 50px;
-    width: 200px;
+}
+
+
+.communitytext{
+    margin-bottom: 10px;
 
 }
 
+.commtext{
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.commtext2{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.commjoin{
+    color: black;
+    font-size: 25px;
+    background-color:#e04642 ;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 60px;
+    width: 300px;
+
+}
+
+
 .home .birthday video{
-    
-  
     height: 600px;
-    width: 600px;
+    width: 400px;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+ 
     
+}
+
+.birthdayparties{
+    
+    border-radius: 20px;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #e04642;
+    
+}
+
+.bpimg img{
+    height: 350px;
+    width: 400px;
+    
+}
+
+.bptext{
+   margin-top: 20px;
+    margin-right: 40px;
+}
+
+.bptext h1{
+    font-size: 45px;
+}
+
+.bptext h2{
+    margin-top: 5px;
+    font-size: 45px;
+}
+
+
+
+
+.socialmedia{
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FF0000 ;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+
+}
+
+.button2{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    background:  linear-gradient(45deg, #e1306c, #fd1d1d, #c13584,#5851db) ;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+
+}
+
+.book{
+    margin-top: 5px;
+    color: #f6b44e;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black ;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+
 }
 
 .steps{
     color: #e04642;
     font-size: 30px;
     font-weight: bold;
-}
-
-
-@media (width < 780px){
-    header{
-        padding-left: 20px;
-    }
 }
